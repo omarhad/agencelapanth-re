@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255, 0.808);
 }
 
 .d-bloc .a-btn:hover,
@@ -231,7 +231,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: rgba(0, 0, 0, 0.784);
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -372,7 +372,7 @@ a:hover {
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
-        color: #484848;
+        color: #171717;
     }
     .nav-invert .site-navigation {
         left: 0;
@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #1d1d1d!important;
 }
 
 .container {
@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 13px;
 }
 
 .tight-width-whitespace {
@@ -771,15 +771,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #953f17;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #953f17;
     color: #FFFFFF!important;
 }
 
@@ -797,7 +797,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #953f17!important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -824,7 +824,13 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
-
+footer li {
+    list-style: none;
+}
+footer ul {
+    padding: 0;
+    margin: 0;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -946,7 +952,7 @@ h4 {
         background: rgba(0, 0, 0, .8);
     }
     #hero-bloc .navbar .nav a {
-        color: rgba(255, 255, 255, .6);
+        color: rgba(255, 255, 255, 0.783);
     }
     .hero {
         padding: 50px 0;
@@ -1026,6 +1032,23 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .col-sm-6{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+    footer .container .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+    .col-sm-4 {
+        width: 100%;
+        text-align: center;
+    }
+
 }
 
 @media (max-width: 400px) {
