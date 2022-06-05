@@ -534,6 +534,7 @@ a[data-lightbox] {
     position: relative;
     display: block;
     text-align: center;
+    width: 100%;
 }
 
 a[data-lightbox]:hover::before {
@@ -741,6 +742,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 100%;
 }
 
 .portfolio-row {
@@ -822,7 +824,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.png");
 }
 footer li {
     list-style: none;
