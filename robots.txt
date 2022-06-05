@@ -1,0 +1,9 @@
+User-agent: *
+
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /img/
+Disallow: /includes/
+Disallow: /js/
+
+Sitemap: https://omarhad.github.io/agencelapanthere/sitemap.xml
